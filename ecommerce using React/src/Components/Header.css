@@ -1,0 +1,66 @@
+#header {
+    background-color:  #E6E6FA ;                           /* Styling the header element*/
+    color:  #008080 ;
+}
+
+#navbar {                                                    /* Styling the navbar element*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c6cacc;
+}
+
+#navbar a {                                                    /* Styling the navbar text element*/
+    color: black;
+    font-weight: 600;
+}
+
+#navdd1, #navdd2 {                                            /* Styling the dropdown bars*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-decoration: none;
+}
+
+#navdd1:hover, #navdd2:hover {                                /* Giving hover effect to dropdown bar elements*/
+    outline: 1px solid white;
+}
+
+
+
+#navbar a:hover {                                             /* Giving hover effect to nav bar elements*/
+    background-color: #0dafaf;
+}
+
+ul li:hover ul.dropdown-menu {                                /*Giving hover effect to nav dropdown menu*/
+    display: block;
+    margin-top: 10px;
+}
+
+.searchbox {
+    height: 30px; width: 70%; margin-top: 12px; border-bottom-left-radius: 10px; padding-bottom: 3px; outline: none;
+}
+
+.searchbutton {
+    height: 30px; margin-top: -4px; padding-top: 2px; margin-left: -5px; border-radius: 0px 10px 0px 0px; background-color: #008080; font-weight: bold;
+}
+
+.loginbutton {
+    background-color: #008080; font-weight: bold;
+    margin-top: 8px;
+}
+
+.cartbutton {
+    color: #008080;
+}
+
+.carticon {
+    width: 45px; height: 45px; margin-top: 6px;
+}
+
+.dropdownf {
+    margin-right: 10px; margin-left: 5px;
+}

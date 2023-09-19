@@ -1,0 +1,13 @@
+.featured {
+    font-size: 5rem;
+    text-align: center;
+}
+
+.card {
+    width: 18rem;
+    margin-left: 4.5rem;
+}
+
+.btn {
+    background-color: #008080;
+}

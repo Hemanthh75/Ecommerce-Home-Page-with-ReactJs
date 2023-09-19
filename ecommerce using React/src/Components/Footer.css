@@ -1,0 +1,15 @@
+.footerrow {
+    text-align: center;
+    background-color: rgba(49, 48, 48, 0.774);
+    color: white;
+    font-weight: bold;
+}
+
+.footerrow ul {
+    list-style-type: none;
+}
+
+
+.firstList {
+    padding-left: 36px;
+}

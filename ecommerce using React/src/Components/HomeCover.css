@@ -1,0 +1,34 @@
+.homeheading {                                                                                                /*Adding styles to h1 element inside home id*/
+    color: white;
+    font-size: 10rem;
+    text-align: center;
+    padding-top: 300px;
+    text-shadow: 5px 5px 5px black;
+}
+
+.hometext {                                                                                                 /*Adding styles to p element inside home id*/
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    font-size: 30px;
+}
+
+.homecover {
+    background-image: url(../Images/BackgroundHome/Image.jpeg);
+    background-size: cover;
+    padding-bottom: 350px;
+}
+
+@media  screen and (max-width: 575px) {                                                                    /*Styling the h1 element inside home id in different screen sizes*/
+    .homecover h1 {
+        font-size: 70px;
+        text-align: center;
+    }
+}
+
+@media  screen and (max-width: 336px) {                                                                  /*Styling the h1 element inside home id in different screen sizes*/
+    .homecover h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+}
